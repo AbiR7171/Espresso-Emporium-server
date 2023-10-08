@@ -1,0 +1,22 @@
+[
+    {   "level":"1.1",
+        "word":"চুলা",
+        "Meaning":"Stove",
+        "image":"image.example.png",
+        "option":{
+            "option1":{
+                "word":"kettle",
+                "image":"image.example.png"
+            },
+            "option2":{
+                "word":"filter",
+                "image":"image@gmail.com"
+            },
+            "option3":{
+                "word":"jar",
+                "image":"image.example.png"
+            }
+        },
+        "Difficulty_level":"easy"
+    }
+]

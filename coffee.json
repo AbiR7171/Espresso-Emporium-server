@@ -1,0 +1,243 @@
+[
+    {
+      "coffee_name": "Espresso",
+      "chef": "Barista John",
+      "chef_img":"https://img.freepik.com/free-photo/chef-with-thumb-up-white-background_1368-2842.jpg?w=740&t=st=1696611700~exp=1696612300~hmac=b29606ed499646727f4ca209dd801d97dafd052d475c3b81cfdd72865df94554",
+      "coffee_picture": "https://img.freepik.com/free-photo/close-up-coffee-cup-wooden-table-steam-rising-generative-ai_188544-8921.jpg?w=826&t=st=1692544083~exp=1692544683~hmac=3a25fd3c60c1b7dae54479748650db1030221052b846b4271f9459234feebf60",
+      "price_usd": 2.50,
+      "price_bdt": 210
+    },
+    {
+      "coffee_name": "Americano",
+      "chef": "Barista Emily",
+      "chef_img":"https://img.freepik.com/free-photo/chef-with-thumb-up-white-background_1368-2842.jpg?w=740&t=st=1696611700~exp=1696612300~hmac=b29606ed499646727f4ca209dd801d97dafd052d475c3b81cfdd72865df94554",
+      "coffee_picture": "https://img.freepik.com/premium-photo/cup-coffee-wooden-table-generative-ai_79443-3494.jpg?w=826",
+      "price_usd": 3.00,
+      "price_bdt": 250
+    },
+    {
+      "coffee_name": "Latte",
+      "chef": "Barista Alex",
+      "chef_img":"https://img.freepik.com/free-photo/chef-with-thumb-up-white-background_1368-2842.jpg?w=740&t=st=1696611700~exp=1696612300~hmac=b29606ed499646727f4ca209dd801d97dafd052d475c3b81cfdd72865df94554",
+      "coffee_picture": "https://img.freepik.com/free-photo/top-view-hot-espresso-with-brown-coffee-seeds-brown-wooden-desk-coffee-cup-drink_140725-28168.jpg?w=360&t=st=1692544161~exp=1692544761~hmac=94299602a2eacc7473ac03e491a080460a5d8e901a7f1170e3246b7ff99f1f17",
+      "price_usd": 4.00,
+      "price_bdt": 340
+    },
+    {
+      "coffee_name": "Cappuccino",
+      "chef": "Barista Sofia",
+      "chef_img":"https://img.freepik.com/free-photo/chef-with-thumb-up-white-background_1368-2842.jpg?w=740&t=st=1696611700~exp=1696612300~hmac=b29606ed499646727f4ca209dd801d97dafd052d475c3b81cfdd72865df94554",
+      "coffee_picture": "https://img.freepik.com/free-photo/hot-latte-coffee-shop_1339-6295.jpg?w=740&t=st=1692544196~exp=1692544796~hmac=9e12dd7933d9fe06b33dd08932d84e8cfa75ebd88c79a66c6c852bd07b57977b",
+      "price_usd": 3.50,
+      "price_bdt": 295
+    },
+    {
+      "coffee_name": "Mocha",
+      "chef": "Barista Liam",
+      "chef_img":"https://img.freepik.com/free-photo/chef-with-thumb-up-white-background_1368-2842.jpg?w=740&t=st=1696611700~exp=1696612300~hmac=b29606ed499646727f4ca209dd801d97dafd052d475c3b81cfdd72865df94554",
+      "coffee_picture": "https://img.freepik.com/free-photo/espresso-dark-background-steam-rises-coffee-coffee-breakfast-italian-cafe-shop-vertical-shot-selective-focus_166373-2022.jpg?w=360&t=st=1692544232~exp=1692544832~hmac=5166a1123708c641ec249329d538aad8f69a41a9d3a37d441ea83617505a6a69",
+      "price_usd": 4.50,
+      "price_bdt": 380
+    },
+    {
+      "coffee_name": "Flat White",
+      "chef": "Barista Mia",
+      "chef_img":"https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg?w=740&t=st=1696611762~exp=1696612362~hmac=60ff8a695a232e43e4f590ce8e9098e0c18324497f938ca469972ef0c1b80163",
+      "coffee_picture": "https://img.freepik.com/free-photo/hot-chocolate-served-with-cookies_140725-1153.jpg?w=740&t=st=1692544273~exp=1692544873~hmac=83dcd6bde33e861b22a13e33fddfe55891ded07955b8de463d4f742d3aa7864f",
+      "price_usd": 4.00,
+      "price_bdt": 340
+    },
+    {
+      "coffee_name": "Espresso Macchiato",
+      "chef": "Barista Noah",
+      "chef_img":"https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg?w=740&t=st=1696611762~exp=1696612362~hmac=60ff8a695a232e43e4f590ce8e9098e0c18324497f938ca469972ef0c1b80163",
+      "coffee_picture": "https://img.freepik.com/free-photo/top-view-cappuccino-cup-coffee-beans-form-heart_176474-3307.jpg?w=740&t=st=1692544303~exp=1692544903~hmac=933bfc37a8ceb7fe6f6c62f7609bf249bc0874ae03432a7d479837920785c68c",
+      "price_usd": 3.00,
+      "price_bdt": 250
+    },
+    {
+      "coffee_name": "Cortado",
+      "chef": "Barista Ava",
+      "chef_img":"https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg?w=740&t=st=1696611762~exp=1696612362~hmac=60ff8a695a232e43e4f590ce8e9098e0c18324497f938ca469972ef0c1b80163",
+      "coffee_picture": "https://img.freepik.com/premium-psd/cup-coffee-mockup_373676-56.jpg?w=740",
+      "price_usd": 3.50,
+      "price_bdt": 295
+    },
+    {
+      "coffee_name": "Irish Coffee",
+      "chef": "Barista Ethan",
+      "chef_img":"https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg?w=740&t=st=1696611762~exp=1696612362~hmac=60ff8a695a232e43e4f590ce8e9098e0c18324497f938ca469972ef0c1b80163",
+      "coffee_picture": "https://img.freepik.com/free-photo/cup-coffee-with-drawn-heart_1286-225.jpg?w=740&t=st=1692544367~exp=1692544967~hmac=da3bdcc3174032936a7d390366a955cb9468cf4fe338c097d83bde2583a2dc1a",
+      "price_usd": 5.00,
+      "price_bdt": 425
+    },
+    {
+      "coffee_name": "Affogato",
+      "chef": "Barista Olivia",
+      "chef_img":"https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg?w=740&t=st=1696611762~exp=1696612362~hmac=60ff8a695a232e43e4f590ce8e9098e0c18324497f938ca469972ef0c1b80163",
+      "coffee_picture": "https://img.freepik.com/free-photo/beautiful-fresh-relax-morning-coffee-cup-set_1150-7052.jpg?w=740&t=st=1692544418~exp=1692545018~hmac=6513c70cd9fddb8c51c6bdf1e72c298285de17396269e91f990dd877aa849d10",
+      "price_usd": 4.50,
+      "price_bdt": 380
+    },
+    {
+      "coffee_name": "Turkish Coffee",
+      "chef": "Barista Lucas",
+      "chef_img":"https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg?w=740&t=st=1696611762~exp=1696612362~hmac=60ff8a695a232e43e4f590ce8e9098e0c18324497f938ca469972ef0c1b80163",
+      "coffee_picture": "https://img.freepik.com/free-photo/foamy-cappuccino-wood-table-generated-by-ai_24640-82293.jpg?t=st=1692544498~exp=1692548098~hmac=09d9ba43f2fb44bff8f19abbc76d1d4f97127d7d11ce2fc7993d173a4f4aaaa7&w=826",
+      "price_usd": 3.50,
+      "price_bdt": 295
+    },
+    {
+      "coffee_name": "Cold Brew",
+      "chef": "Barista Isabella",
+      "chef_img":"https://img.freepik.com/free-photo/satisfied-professional-male-chef-cook-white-uniform-cook-hat-standing-with-arms-crossed-looking-confident-green-background_141793-20656.jpg?w=740&t=st=1696611805~exp=1696612405~hmac=8f924274bc73fd62f277bed972eea839035bedd22ae804de25579ecde534f8d5",
+      "coffee_picture": "https://img.freepik.com/free-psd/mockup-disposable-coffee-cup_53876-65837.jpg?w=740&t=st=1692544717~exp=1692545317~hmac=f1cc85c9eb80e686b42944c957236eb70db25cddc6a9350fd72dcef8d26a7ab2",
+      "price_usd": 4.00,
+      "price_bdt": 340
+    },
+    {
+      "coffee_name": "French Press",
+      "chef": "Barista Oliver",
+      "chef_img":"https://img.freepik.com/free-photo/satisfied-professional-male-chef-cook-white-uniform-cook-hat-standing-with-arms-crossed-looking-confident-green-background_141793-20656.jpg?w=740&t=st=1696611805~exp=1696612405~hmac=8f924274bc73fd62f277bed972eea839035bedd22ae804de25579ecde534f8d5",
+      "coffee_picture": "https://img.freepik.com/premium-photo/cup-coffee-with-latte-art-top_265515-6775.jpg?w=826",
+      "price_usd": 4.50,
+      "price_bdt": 380
+    },
+    {
+      "coffee_name": "Iced Coffee",
+      "chef": "Barista Mia",
+      "chef_img":"https://img.freepik.com/free-photo/satisfied-professional-male-chef-cook-white-uniform-cook-hat-standing-with-arms-crossed-looking-confident-green-background_141793-20656.jpg?w=740&t=st=1696611805~exp=1696612405~hmac=8f924274bc73fd62f277bed972eea839035bedd22ae804de25579ecde534f8d5",
+      "coffee_picture": "https://img.freepik.com/premium-photo/photo-fresh-cappuccino-rustic-wood-table-steam-rising_651553-87.jpg?w=826",
+      "price_usd": 3.50,
+      "price_bdt": 295
+    },
+    {
+      "coffee_name": "Chemex Coffee",
+      "chef": "Barista Liam",
+      "chef_img":"https://img.freepik.com/free-photo/satisfied-professional-male-chef-cook-white-uniform-cook-hat-standing-with-arms-crossed-looking-confident-green-background_141793-20656.jpg?w=740&t=st=1696611805~exp=1696612405~hmac=8f924274bc73fd62f277bed972eea839035bedd22ae804de25579ecde534f8d5",
+      "coffee_picture": "https://img.freepik.com/free-photo/cappuccino-served-blue-cup_140725-3354.jpg?w=360&t=st=1692544900~exp=1692545500~hmac=7dfe253c36250b30704725bfaecc44ae4a6f949001294823c588bdffe8b624a0",
+      "price_usd": 4.50,
+      "price_bdt": 380
+    },
+    {
+      "coffee_name": "Ethiopian Yirgacheffe",
+      "chef": "Barista Ava",
+      "chef_img":"https://img.freepik.com/free-photo/satisfied-professional-male-chef-cook-white-uniform-cook-hat-standing-with-arms-crossed-looking-confident-green-background_141793-20656.jpg?w=740&t=st=1696611805~exp=1696612405~hmac=8f924274bc73fd62f277bed972eea839035bedd22ae804de25579ecde534f8d5",
+      "coffee_picture": "https://img.freepik.com/premium-photo/cup-coffee-surrounded-by-coffee-beans_997534-626.jpg?w=826",
+      "price_usd": 5.00,
+      "price_bdt": 425
+    },
+    {
+      "coffee_name": "Indonesian Kopi Tubruk",
+      "chef": "Barista Ethan",
+      "chef_img":"https://img.freepik.com/free-photo/satisfied-professional-male-chef-cook-white-uniform-cook-hat-standing-with-arms-crossed-looking-confident-green-background_141793-20656.jpg?w=740&t=st=1696611805~exp=1696612405~hmac=8f924274bc73fd62f277bed972eea839035bedd22ae804de25579ecde534f8d5",
+      "coffee_picture": "https://img.freepik.com/free-photo/aromatic-frappuccino-table_23-2148900674.jpg?w=360&t=st=1692544984~exp=1692545584~hmac=b9b1085fa9dc368f3d18f4f2a4aa87b031fe3d372a111bd9c8d962335b93ab4e",
+      "price_usd": 3.00,
+      "price_bdt": 250
+    },
+    {
+      "coffee_name": "Mexican Café de Olla",
+      "chef": "Barista Olivia",
+      "chef_img":"https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1696611847~exp=1696612447~hmac=e0ae108e531b2579c29d0dcfa0796fc1a3e67dd6db33f4336cd05dcdd5dffde9",
+      "coffee_picture": "https://img.freepik.com/free-photo/coffee-beans-around-cup_23-2147764935.jpg?w=740&t=st=1692545014~exp=1692545614~hmac=96947885baa4dd941fdadaba2deb797044a41de5ccb6ab71a35f902090e41001",
+      "price_usd": 4.00,
+      "price_bdt": 340
+    },
+    {
+      "coffee_name": "Vietnamese Egg Coffee",
+      "chef": "Barista Noah",
+      "chef_img":"https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1696611847~exp=1696612447~hmac=e0ae108e531b2579c29d0dcfa0796fc1a3e67dd6db33f4336cd05dcdd5dffde9",
+      "coffee_picture": "https://img.freepik.com/free-psd/disposable-coffee-paper-cup-mockup-design_53876-65835.jpg?w=740&t=st=1692545061~exp=1692545661~hmac=31aab78e9d6396e46a21ffff02d7c029ce2119d3badaef25e700a4a98d0e1ca8",
+      "price_usd": 3.50,
+      "price_bdt": 295
+    },
+    {
+      "coffee_name": "Greek Frappé",
+      "chef": "Barista Mia",
+      "chef_img":"https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1696611847~exp=1696612447~hmac=e0ae108e531b2579c29d0dcfa0796fc1a3e67dd6db33f4336cd05dcdd5dffde9",
+      "coffee_picture": "https://img.freepik.com/free-photo/frothy-coffee-steam-rises-from-elegant-mug-generated-by-ai_188544-29670.jpg?t=st=1692545097~exp=1692548697~hmac=3385670aaedeefd1bcd05c86a273770b212c792e840a5284d381911e6b0ce050&w=826",
+      "price_usd": 3.00,
+      "price_bdt": 250
+    },
+    {
+        "coffee_name": "Turkish Coffee",
+        "chef": "Barista Sophia",
+        "chef_img":"https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1696611847~exp=1696612447~hmac=e0ae108e531b2579c29d0dcfa0796fc1a3e67dd6db33f4336cd05dcdd5dffde9",
+        "coffee_picture": "https://img.freepik.com/premium-psd/black-cup-coffee-with-beans-isolated-white-background_88281-5729.jpg?w=740",
+        "price_usd": 3.50,
+        "price_bdt": 295
+      },
+      {
+        "coffee_name": "Vietnamese Iced Coffee",
+        "chef": "Barista Liam",
+        "chef_img":"https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1696611847~exp=1696612447~hmac=e0ae108e531b2579c29d0dcfa0796fc1a3e67dd6db33f4336cd05dcdd5dffde9",
+        "coffee_picture": "https://img.freepik.com/free-psd/coffee-realistic-take-away-isolated_23-2150401233.jpg?w=740&t=st=1692547061~exp=1692547661~hmac=cdc0ad9631937a8c47d359dce3d93ab85190a9531fe8e3bb776bb42128346b46",
+        "price_usd": 4.00,
+        "price_bdt": 340
+      },
+      {
+        "coffee_name": "Brazilian Cafézinho",
+        "chef": "Barista Isabella",
+        "chef_img":"https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1696611847~exp=1696612447~hmac=e0ae108e531b2579c29d0dcfa0796fc1a3e67dd6db33f4336cd05dcdd5dffde9",
+        "coffee_picture": "https://img.freepik.com/free-photo/cup-coffee-cafe-table_53876-63268.jpg?w=360&t=st=1692547085~exp=1692547685~hmac=de1d0719f6b424c63291abcfbf91de5db163019a5cba3acc02fdc574add4c5cb",
+        "price_usd": 2.50,
+        "price_bdt": 210
+      },
+      {
+        "coffee_name": "Italian Ristretto",
+        "chef": "Barista Matteo",
+        "chef_img":"https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1696611847~exp=1696612447~hmac=e0ae108e531b2579c29d0dcfa0796fc1a3e67dd6db33f4336cd05dcdd5dffde9",
+        "coffee_picture": "https://img.freepik.com/free-photo/top-view-cup-cappuccino-with-chocolate-cookies-raisin-cookies-with-book-table_141793-2880.jpg?w=740&t=st=1692547103~exp=1692547703~hmac=557a7e009ba9694ddb0d049176abc167403653e227aa65919d5d905af7a35f58",
+        "price_usd": 3.00,
+        "price_bdt": 250
+      },
+      {
+        "coffee_name": "Spanish Cortado",
+        "chef": "Barista Sofia",
+        "chef_img":"https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1696611847~exp=1696612447~hmac=e0ae108e531b2579c29d0dcfa0796fc1a3e67dd6db33f4336cd05dcdd5dffde9",
+        "coffee_picture": "https://img.freepik.com/premium-photo/blue-cup-coffee-wooden-background_245726-651.jpg?w=740",
+        "price_usd": 3.50,
+        "price_bdt": 295
+      },
+      {
+        "coffee_name": "Ethiopian Sidamo",
+        "chef": "Barista Aiden",
+        "chef_img":"https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1696611847~exp=1696612447~hmac=e0ae108e531b2579c29d0dcfa0796fc1a3e67dd6db33f4336cd05dcdd5dffde9",
+        "coffee_picture": "https://img.freepik.com/free-photo/latte-coffee_74190-7858.jpg?w=740&t=st=1692547148~exp=1692547748~hmac=f9950b066e9db49ad77c070d56ca0f1202c6cf14bf6510dce0a0a3ae54ba5cb1",
+        "price_usd": 4.50,
+        "price_bdt": 380
+      },
+      {
+        "coffee_name": "Guatemalan Antigua",
+        "chef": "Barista Diego",
+        "chef_img":"https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1696611847~exp=1696612447~hmac=e0ae108e531b2579c29d0dcfa0796fc1a3e67dd6db33f4336cd05dcdd5dffde9",
+        "coffee_picture": "https://img.freepik.com/premium-psd/paper-coffee-cup-mockup-coffee-beans_35913-1695.jpg?w=360",
+        "price_usd": 4.00,
+        "price_bdt": 340
+      },
+      {
+        "coffee_name": "Honduran Marcala",
+        "chef": "Barista Camila",
+        "chef_img":"https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1696611847~exp=1696612447~hmac=e0ae108e531b2579c29d0dcfa0796fc1a3e67dd6db33f4336cd05dcdd5dffde9",
+        "coffee_picture": "https://img.freepik.com/premium-psd/plastic-cup-with-coffee-mock-up_23-2148884521.jpg?w=740",
+        "price_usd": 3.00,
+        "price_bdt": 250
+      },
+      {
+        "coffee_name": "Kenyan AA",
+        "chef": "Barista Elijah",
+        "chef_img":"https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1696611847~exp=1696612447~hmac=e0ae108e531b2579c29d0dcfa0796fc1a3e67dd6db33f4336cd05dcdd5dffde9",
+        "coffee_picture": "https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price_usd": 3.50,
+        "price_bdt": 295
+      },
+      {
+        "coffee_name": "Panamanian Geisha",
+        "chef": "Barista Mia",
+        "chef_img":"https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1696611847~exp=1696612447~hmac=e0ae108e531b2579c29d0dcfa0796fc1a3e67dd6db33f4336cd05dcdd5dffde9",
+        "coffee_picture": "https://images.pexels.com/photos/2907301/pexels-photo-2907301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price_usd": 5.00,
+        "price_bdt": 425
+      }
+  ]
+  
