@@ -92,7 +92,7 @@ async function run() {
 
                const result = await coffeeCollection.find(query).toArray();
                res.send(result)
-    })
+    })  
 
 
     // cart 
