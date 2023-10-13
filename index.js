@@ -103,7 +103,34 @@ async function run() {
               // console.log(coffee);
               const result = await cartCollection.insertOne(coffee);
               res.send(result)
-    }) 
+    })  
+
+
+    app.get("/userCart", async(req, res)=>{ 
+
+             const userEmail = req.query.email;
+
+             const query = {email: userEmail};
+
+             const result = await cartCollection.find(query).toArray();
+
+             res.send(result)
+
+
+    })
+
+
+    app.delete("/removeCart/:id", async(req, res)=>{
+
+            const id = req.params.id;
+
+            const query = {coffee_id: id};
+
+            const result = await cartCollection.deleteOne(query);
+
+            res.send(result)
+                
+    })
 
 
 
