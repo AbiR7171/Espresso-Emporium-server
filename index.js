@@ -44,6 +44,7 @@ async function run() {
 
 
     const coffeeCollection = client.db("Espresso-emporium").collection("coffee");
+    const coffeeRequestCollection = client.db("Espresso-emporium").collection("coffeeRequest");
     const userCollection = client.db("Espresso-emporium").collection("user");
     const cartCollection = client.db("Espresso-emporium").collection("cart");
     const loveCollection = client.db("Espresso-emporium").collection("love");
@@ -73,7 +74,9 @@ async function run() {
         const result = await coffeeCollection.find().toArray()
         res.send(result)
     }) 
+ 
 
+   
 
     app.get('/coffee/:id', async(req, res)=>{
 
@@ -93,6 +96,48 @@ async function run() {
                const result = await coffeeCollection.find(query).toArray();
                res.send(result)
     })  
+
+
+    app.delete("/deleteCoffee/:id", async (req, res)=>{
+              
+                const id = req.params.id;
+                const query = {_id: new ObjectId(id)}
+                const result = await coffeeCollection.deleteOne(query)
+                res.send(result)
+    })
+
+
+    // chef 
+
+    app.post("/coffeeRequest", async(req, res)=>{
+       
+      const coffee = req.body;
+      const result = await coffeeRequestCollection.insertOne(coffee)
+      res.send(result)
+}) 
+
+
+     app.get("/myCoffeeRequest", async(req, res)=>{
+             const email = req.query.email;
+             const query = {chef_email: email};
+             const result = await coffeeRequestCollection.find(query).toArray();
+             res.send(result)
+     }) 
+
+
+     app.get("/allCoffeeRequest", async(req, res)=>{
+       
+                const result = await coffeeRequestCollection.find().toArray();
+                res.send(result)
+     })
+
+     app.get("/myCoffee", async(req, res)=>{
+       
+             const email = req.query.email;
+             const query = {chef_email: email};
+             const result = await coffeeCollection.find(query).toArray();
+             res.send(result)
+     })
 
 
     // cart 
@@ -135,12 +180,16 @@ async function run() {
 
 
 
-    // love 
+    // love LogoutLogout
+
+
+
+
 
     app.post('/addLoveCart', async(req, res)=>{
 
              const coffee = req.body;
-             console.log(coffee);
+         
              const result = await loveCollection.insertOne(coffee);
              res.send(result)
              
@@ -151,7 +200,7 @@ async function run() {
 
 
             const id = req.params.id;
-            console.log(id);
+     
             const query = {coffee_id: id};
             const result = await loveCollection.deleteOne(query);
             res.send(result)
@@ -178,6 +227,81 @@ async function run() {
            const result = await userCollection.insertOne(user);
            res.send(result)
            
+    })
+ 
+
+
+    app.patch("/updateRole/:id", async(req,res)=>{
+
+                  const id = req.params.id;
+                  const {role} = req.body;
+                  const query = {_id: new ObjectId(id)};
+
+                  const updateDoc = {
+                              $set: {
+                                  role: role
+                              }
+                  }
+
+                  const result = await userCollection.updateOne(query, updateDoc);
+                  res.send(result)
+
+
+    })
+
+
+    app.put("/updateLoveCount/:id", async(req, res)=>{
+
+            const id = req.params.id;
+            console.log(id);
+            const query = {_id: new ObjectId(id)};
+            const updateData = req.body;
+            console.log(updateData);
+
+
+      
+            const updateDoc = {
+              $set:{
+                love: updateData?.love + 1
+              }
+            }
+
+
+            const result = await coffeeCollection.updateOne(query, updateDoc);
+
+            res.send(result)
+
+    })
+    app.put("/updateCartCount/:id", async(req, res)=>{
+
+            const id = req.params.id;
+            console.log(id);
+            const query = {_id: new ObjectId(id)};
+            const updateData = req.body;
+            console.log(updateData);
+
+
+      
+            const updateDoc = {
+              $set:{
+                love: updateData?.cart + 1
+              }
+            }
+
+
+            const result = await coffeeCollection.updateOne(query, updateDoc);
+
+            res.send(result)
+
+    });
+
+
+
+    app.get("/allUsers", async(req,res)=>{
+
+             const result = await userCollection.find().toArray();
+             res.send(result)
+
     })
 
 
