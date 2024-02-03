@@ -68,6 +68,14 @@ async function run() {
     // coffees
 
 
+    app.post("/addNewCoffee", async(req, res)=>{
+       
+          const  coffee = req.body;
+          const result = await  coffeeCollection.insertOne(coffee);
+          res.send(result)
+    })
+
+
     app.get("/coffees", async(req, res)=>{ 
 
 
@@ -107,6 +115,13 @@ async function run() {
     })
 
 
+    app.get("/topCoffee", async(req, res)=>{
+
+             const result = await coffeeCollection.find().sort({cart:-1}).limit(5).toArray();
+             res.send(result)
+    })
+
+
     // chef 
 
     app.post("/coffeeRequest", async(req, res)=>{
@@ -138,6 +153,55 @@ async function run() {
              const result = await coffeeCollection.find(query).toArray();
              res.send(result)
      })
+
+
+     app.put("/rejectCoffeeRequest/:id", async(req, res)=>{
+
+                 const id = req.params.id;
+                 const query = {_id: new ObjectId(id)}
+                 const updateDoc = req.body
+
+                 console.log(updateDoc);
+
+                 const updateData = {
+                       $set: {
+                            status:"Rejected",
+                            feedback:updateDoc.feedback
+                       }
+                 }
+
+                 const result = await coffeeRequestCollection.updateOne(query, updateData)
+                 res.send(result)
+     })
+
+
+     app.patch("/coffeeAccepted/:id", async(req, res)=>{
+       
+           const  id = req.params.id;
+           const query = {_id: new ObjectId(id)}
+           const updateDoc = {
+             $set:{
+                  status: "Accepted"
+             }
+           }
+           
+           const result = await coffeeRequestCollection.updateOne(query, updateDoc);
+           res.send(result)
+     })
+
+
+
+     app.get("/myTopCoffee", async(req, res)=>{
+              
+               const chef_email = req.query.email;
+               const query = {chef_email: chef_email};
+               const result = await coffeeCollection.find(query).sort({cart: -1}).limit(5).toArray()
+               res.send(result)
+     })
+
+
+
+  
 
 
     // cart 
@@ -175,6 +239,14 @@ async function run() {
 
             res.send(result)
                 
+    })
+
+
+
+    app.get("/allCart", async(req, res)=>{
+       
+             const result = await cartCollection.find().toArray();
+             res.send(result)
     })
 
 
@@ -284,7 +356,7 @@ async function run() {
       
             const updateDoc = {
               $set:{
-                love: updateData?.cart + 1
+                cart: updateData?.cart + 1
               }
             }
 
@@ -303,6 +375,43 @@ async function run() {
              res.send(result)
 
     })
+
+
+    app.get("/user/:id", async(req, res)=>{
+             
+               const id = req.params.id;
+               const query = { _id: new ObjectId(id)}
+               const result = await userCollection.findOne(query)
+               res.send(result)
+    })
+
+
+
+  //  verify user 
+
+
+  app.get("/isChef", async(req, res)=>{
+    
+              const  {email}  = req.query;
+              console.log(email);
+              const query =  {email :  email}
+              const user = await userCollection.findOne(query);
+              console.log(user);
+              const result =  {chef : user?.role ===  "chef"};
+              console.log(result);
+              res.send(result)
+
+  })
+
+
+  app.get("/isAdmin", async(req, res) =>{
+     
+             const {email} = req.query;
+             const query = {email : email}
+             const user = await userCollection.findOne(query)
+             const result =  {admin : user?.role === "admin"}
+             res.send(result)
+  })
 
 
     await client.db("admin").command({ ping: 1 });
